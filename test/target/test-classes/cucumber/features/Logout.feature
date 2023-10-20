@@ -1,7 +1,6 @@
 Feature: Logout functionality
     Scenario Outline: Success Logout
         Given user is on dashboard page
-        When sidebar is hidden
         When user click menu icon
         Then sidebar is opened
         When user click logout menu
